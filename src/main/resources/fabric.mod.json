@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bananamod",
+  "version": "${version}",
+  "name": "Banana Button",
+  "description": "Adds a banana button. Press it and bananas fly out.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.bananamod.BananaMod"],
+    "client": ["dev.bananamod.client.BananaModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
